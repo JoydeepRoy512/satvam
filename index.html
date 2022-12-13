@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Estate</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/custom.css">
+
+    <!-- ==========font family============== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- slick slider -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <link rel="stylesheet" href="./slick/slick-theme.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="https://www.markobrando.com/">
+                    <img src="./img/Sattvam-Logo-Gold.png" alt="">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                        <path stroke="rgb(255,255,255)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.4"
+                            d="M4 7h22M4 15h22M4 23h22" />
+                    </svg></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Get in touch</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- =============banner============ -->
+
+    <div class="banner-bg">
+        <div class="container-fluid g-0">
+            <div class="row g-0">
+                <div class="banner-outer">
+
+                    <div class="banner-sliders">
+                        <div class="slide">
+                            <img src="/img/office-buildings.jpg" alt="">
+                            <div class="text-outer">
+                                <div class="image-number">
+                                    <p>01 / PROVIDE EQUITY</p>
+                                    <div class="large-text">
+                                        <h2>
+                                            we use real estate to show our appreciation of the world.
+                                        </h2>
+                                    </div>
+                                    <div class="end-text">
+                                        <div class="t1">
+                                            <a href="#">
+                                                <p>Explore</p>
+                                            </a>
+                                        </div>
+                                        <div class="t2">
+                                            <a href="#"><img src="./img/down-arrow.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="/img/apartment-home-residential-building-outdoor-concept-street-backgrounds.jpg"
+                                alt="">
+                            <div class="text-outer">
+                                <div class="image-number">
+                                    <p>02 / PROVIDE EQUITY</p>
+                                    <div class="large-text">
+                                        <h2>
+                                            we use real estate to show our appreciation of the world.
+                                        </h2>
+                                    </div>
+                                    <div class="end-text">
+                                        <div class="t1">
+                                            <a href="#">
+                                                <p>Explore</p>
+                                            </a>
+                                        </div>
+                                        <div class="t2">
+                                            <a href="#"><img src="./img/down-arrow.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="slide">
+                            <img src="/img/office-buildings.jpg" alt="">
+
+                            <div class="text-outer">
+                                <div class="image-number">
+                                    <p>03 / PROVIDE EQUITY</p>
+                                    <div class="large-text">
+                                        <h2>
+                                            we use real estate to show our appreciation of the world.
+                                        </h2>
+                                    </div>
+                                    <div class="end-text">
+                                        <div class="t1">
+                                            <a href="#">
+                                                <p>Explore</p>
+                                            </a>
+                                        </div>
+                                        <div class="t2">
+                                            <a href="#"><img src="./img/down-arrow.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-outer">
+                        <p class="ml-autp heading">leave details to know more</h5>
+                        <form class="text-center">
+
+                            <div class="form-group1">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Your name*">
+                            </div>
+                            <div class="form-group1">
+                                <input type="tel" class="form-control" id="exampleFormControlInput2" maxlength="10"
+                                    placeholder="Phone number*">
+                            </div>
+                            <div class="form-group1">
+                                <input type="email" class="form-control" id="exampleFormControlInput3"
+                                    placeholder="Your e-mail*">
+                            </div>
+                            <div class="form-group1">
+                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                    placeholder="How do we help you ?" rows="3" cols="5"></textarea>
+                            </div>
+                            <div class="view-outer">
+                                <div class="text mt-sm-0">
+                                    <p><a type="submit" value="submit">Just One Click Away</a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============overview======================= -->
+
+    <div class="section overview">
+        <div class="part1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="project-count">
+                            <p>Our Projects</p>
+                            <span class="number">200+</span>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="inner-text">
+                            <h2>
+                                Overview
+                            </h2>
+                            <p>
+                                By combining autonomy capital's macroeconomic expertise with local sector knowledge, we
+                                believe we can identify undervalued and complex asset that are overlooked by the general
+                                market and transform them into catalysts of change.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="float-img">
+            <img src="./img/diwali-rakshabandhan-celebration-indian-young-family-four-celebrating-deepavali-bhai-dooj-festival-with-sweet-laddoo-oil-lamp-diya-gift-boxes-eating-food-taking-selfie.jpg"
+                alt="">
+        </div>
+        <div class="part2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="focus">
+                            <h3>
+                                we focus on all rael estate class assets
+                            </h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="focus-des">
+                            <div class="num">
+                                <p>01</p>
+                            </div>
+                            <div class="head">
+                                <p>Residential</p>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum animi quam
+                                    dolorum
+                                    quidem asperiores tempora unde labore ipsa, accusantium omnis, ad ducimus officia
+                                    obcaecati placeat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="focus-des" >
+                            <div class="num">
+                                <p>02</p>
+                            </div>
+                            <div class="head">
+                                <p>Industrial & Tech Facilities</p>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum animi quam
+                                    dolorum
+                                    quidem asperiores tempora unde labore ipsa, accusantium omnis, ad ducimus officia
+                                    obcaecati placeat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="focus-des">
+                            <div class="num">
+                                <p>03</p>
+                            </div>
+                            <div class="head">
+                                <p>Land Ventures</p>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum animi quam
+                                    dolorum
+                                    quidem asperiores tempora unde labore ipsa, accusantium omnis, ad ducimus officia
+                                    obcaecati placeat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ==============who we are========== -->
+
+    <div class="section who">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image">
+                        <img src="./img/who.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-outer">
+                        <div class="head">
+                            <h3>Who we are</h3>
+                        </div>
+                        <div class="para">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio aliquid, atque nisi fuga
+                                laudantium consequatur facilis tempore placeat magni maiores veritatis autem vel
+                                aperiam, ullam quibusdam amet consectetur cupiditate blanditiis facere commodi
+                                reprehenderit mollitia. Corporis excepturi suscipit veritatis.
+                            </p>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li>Strong macroeconomic perspective</li>
+                                <li>opportunistic and flexible cross-sector mentality</li>
+                                <li>local readch and deep ralationship with local parteners advisors</li>
+                                <li>Experiecnced management team with extensive real estate</li>
+                                <li>Dedication to the highest ethical and responsobale business practices.</li>
+                                <div class="view-outer">
+                                    <p><a data-bs-toggle="modal" data-bs-target="#modal">Know More</a></p>
+                                </div>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================Amenities============= -->
+    <div class="scetion amenities">
+        <div class="container-fluid g-0">
+            <div class="heading">
+                <h3>
+                    Amenities
+                </h3>
+            </div>
+
+            <div class="amenities-sliders">
+                <div class="slide">
+                    <img src="/img/1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/img/1.jpg" alt="">
+
+                </div>
+                <div class="slide">
+                    <img src="/img/1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/img/1.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =======================get in touch============== -->
+
+    <div class="sction touch">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="heading">
+                        <h3>
+                            Get In Touch.
+                        </h3>
+                    </div>
+                    <div class="touch-image">
+                        <img src="./img/get-in-touch.jpeg" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="landmark">
+                        <ul>
+                            <li class="slice">Nevada</li>
+                            <li class="slice">Peninsula</li>
+                            <li class="slice">Los Angeles</li>
+                            <li class="slice">New York</li>
+                            <li class="slice">Denver</li>
+                            <li>Portland</li>
+                        </ul>
+                    </div>
+
+                    <div class="address-outer">
+                        <div class="address-inner">
+                            <div class="text">
+                                <p>PHONE NUMBER</p>
+                            </div>
+                            <div class="number">
+                                <a href="">
+                                    <p>710 452 6600</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="address-inner">
+                            <div class="text">
+                                <p>ADDRESS</p>
+                            </div>
+                            <div class="add-text1">
+                                <p>
+                                    4 Pickwick Drive, Henderson, NV 89014
+                                </p>
+                            </div>
+                        </div>
+                        <div class="address-inner">
+                            <div class="text">
+                                <p>acquisitions /austin</p>
+                            </div>
+                            <div class="add-text2">
+                                <p><b>Lorem ipsum</b></p>
+                                <p>
+                                    Phone: <a href="">720 932 2868</a><br>
+                                    <a href="">
+                                        lorem@google.com
+                                    </a>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="address-inner">
+                            <div class="text">
+                                <p>leasing / austing</p>
+                            </div>
+                            <div class="add-text2">
+                                <p><b>Lorem ipsum</b></p>
+                                <p>
+                                    Phone: <a href="">720 932 2868</a><br>
+                                    <a href="">carolinemdn@google.com</a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============Map=================== -->
+
+    <div class="section map">
+        <div class="container-fluid g-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8532.864373349827!2d88.35256049867051!3d22.560967942202712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02771160347adf%3A0x9fd70619f94d0bac!2sIndian%20Museum!5e0!3m2!1sen!2sin!4v1670847257724!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+
+
+    <!-- ===============footer================= -->
+
+
+    <div class="section footer">
+        <div class="container">
+
+            <div class="icon-outer">
+                <div class="links">
+                    <ul>
+                        <li><a href="">project</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">resource</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </div>
+                <div class="icon-inner">
+                    <div class="icon">
+                        <a href="https://www.markobrando.com/">
+                            <img src="./img/facebook.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.markobrando.com/">
+                            <img src="./img/twitter.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.markobrando.com/">
+                            <img src="./img/google-plus.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="copyright">
+                <p>&#169;2022 Marko & Brando All Rights Reserved. </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ================modal============= -->
+
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="row">
+                        <h5 class="modal-title ml-auto" id="exampleModalLabel">Get in Touch</h5>
+                        <form class="text-center">
+
+                            <div class="form-group1">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Your name*">
+                            </div>
+                            <div class="form-group1">
+                                <input type="tel" class="form-control" id="exampleFormControlInput2" maxlength="10"
+                                    placeholder="Phone number*">
+                            </div>
+                            <div class="form-group1">
+                                <input type="email" class="form-control" id="exampleFormControlInput3"
+                                    placeholder="Your e-mail*">
+                            </div>
+                            <div class="form-group1">
+                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                    placeholder="How do we help you ?" rows="3" cols="5"></textarea>
+                            </div>
+                            <div class="view-outer">
+                                <div class="text mt-sm-0">
+                                    <p><a type="submit" value="submit">SUMBMIT</a></p>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JQuery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- Slick JS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <!-- custom js -->
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
